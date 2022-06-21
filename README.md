@@ -8,7 +8,7 @@ add `--dryrun` to the end of the command to see what the output will be, without
 # Example setup:
 
 ```
-My Cool Folder/
+My-Cool-Folder/
 ├── from/
 │   ├── 010101-383.png
 │   ├── 010101-383.jpg
@@ -22,7 +22,7 @@ My Cool Folder/
 
 Commands to run for example setup:
 
-`cd path/to/My Cool Folder`
+`cd path/to/My-Cool-Folder`
 
 `ruby script.rb filenames.txt from to --dryrun`
 
