@@ -1,5 +1,7 @@
 #! /usr/bin/env ruby
 
+require "fileutils"
+
 class FileCopier
   def initialize(file:, from:, to:)
     @file, @from, @to = file, File.expand_path(from), File.expand_path(to)
